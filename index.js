@@ -8,7 +8,7 @@ const port = 3000;
 app.use(express.static("public"))
 
 const API_URL = "https://api.api-ninjas.com/v1/quotes";
-const API_KEY = "R3dg91bG35xplbDMJze6uQ==7aVmUA0ZCbm262tq";
+const API_KEY = "your API key";
 let category;
 
 app.use(bodyParser.urlencoded({extended: true}))

@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+    background: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container{
+    text-align: center;
+}
+.container > h1{
+    letter-spacing: 5px;
+    font-family: "Kode Mono", monospace;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: normal;
+    background: linear-gradient(to right,#fc0303, #eb1010, #2286bf, #0caaed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:5px 5px  white, 0 0 1em #fc0303, 0 0 1em #0caaed;
+    margin:20px;
+    margin-top: 50px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 20px;
+    justify-content: center;
+    align-item: center;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 10px;
+    border: solid 0.5px;
+    box-shadow: 5px 5px transparent, 0 0 1em #c7288d;
+    background: linear-gradient(#562b5e,#5e2b51);
+    font-family: "Kode Mono", monospace;
+    color: #99bbf0;
+    font-weight: bold;
+}
+
+.btn:hover{
+    box-shadow: 5px 5px transparent, 0 0 1em #4b88fa;
+}
+
+.show-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.show-container > h2{
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    font-family:  "Roboto Mono", monospace;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    background: linear-gradient(to right,#fc0303, #eb1010, #2286bf, #0caaed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:2px 2px  white, 0 0 1em #fc0303, 0 0 1em #0caaed;
+    margin: 0 170px 0 170px;
+    
+}
